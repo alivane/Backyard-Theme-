@@ -119,6 +119,21 @@ header{
 			border:2px solid #0E90C3;
 		}
 	}
+	.cuadro11{
+		background-color: black;
+		padding: 10px 30px;
+		color: #14B0EC;
+		border-radius: 20px;
+		border:2px solid  #0E90C3;
+		&:hover{
+			background-color: white;
+			padding: 10px 30px;
+			text-decoration:none;
+			color:#0E90C3;
+			border-radius: 20px;
+			border:2px solid #0E90C3;
+		}
+	}
 }
 
 hr{
