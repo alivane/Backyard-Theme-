@@ -4,7 +4,20 @@ ul li{
 	margin-left:15px;
 	a{
 	text-decoration:none;
+	color:black;
+	a:hover{
+		color:#7C360C;
+	}
 
+	}
+}
+.lista{
+	ul li{
+		display:inline-block;
+		i{
+			color:white;
+			margin-left:5px;
+		}
 	}
 }
 header{
@@ -64,39 +77,43 @@ header{
 		padding: 10px 30px;
 		color: #14B0EC;
 		border-radius: 20px;
-		border:2px solid  #14B0EC;
+		border:2px solid  #0E90C3;
 		&:hover{
-			background-color: #14B0EC;
+			background-color: #0E90C3;
 			padding: 10px 30px;
 			text-decoration:none;
 			color:white;
 			border-radius: 20px;
-			border:2px solid  #14B0EC;
+			border:2px solid #0E90C3;
 		}
 	}
 }
 
 hr{
-	margin-top:30px;
-	margin-bottom:30px;
+	margin-top:50px;
+	margin-bottom:50px;
 }
-footer{
-	text-align:center;
-	span{
+span{
 		color:#14B0EC;
 	}
-	.redes{
+footer{
+	text-align:center;
+	i{
 		border-color:#14B0EC;
-		color:#14B0EC;
-		width:20px;
-		height:20px;
+		color:black;
+		width:30px;
+		height:30px;
 		text-align:center;
-		.redes:hover{
+		border-radius:100%;
+		margin:20px;
+		&:hover{
 			background-color:#14B0EC;
 			color:white;
-			width:20px;
-			height:20px;
+			width:30px;
+			height:30px;
 			text-align:center;
+			border-radius:100%;
+			margin:20px;
 		}
 
 	}
@@ -109,7 +126,7 @@ footer{
 }
 .plomo{
 	background-color:#DEE2E7;
-	padding-top:40px;
+	padding:40px 20px 20px 20px;
 	padding-bottom:20px;
 	img{
 		width:100%;

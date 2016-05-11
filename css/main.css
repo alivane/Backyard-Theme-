@@ -2,7 +2,16 @@ ul li {
   display: inline-block;
   margin-left: 15px; }
   ul li a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: black; }
+    ul li a a:hover {
+      color: #7C360C; }
+
+.lista ul li {
+  display: inline-block; }
+  .lista ul li i {
+    color: white;
+    margin-left: 5px; }
 
 header {
   padding: 10px; }
@@ -54,35 +63,40 @@ header {
     padding: 10px 30px;
     color: #14B0EC;
     border-radius: 20px;
-    border: 2px solid  #14B0EC; }
+    border: 2px solid  #0E90C3; }
     .botn .cuadro1:hover {
-      background-color: #14B0EC;
+      background-color: #0E90C3;
       padding: 10px 30px;
       text-decoration: none;
       color: white;
       border-radius: 20px;
-      border: 2px solid  #14B0EC; }
+      border: 2px solid #0E90C3; }
 
 hr {
-  margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+span {
+  color: #14B0EC; }
 
 footer {
   text-align: center; }
-  footer span {
-    color: #14B0EC; }
-  footer .redes {
+  footer i {
     border-color: #14B0EC;
-    color: #14B0EC;
-    width: 20px;
-    height: 20px;
-    text-align: center; }
-    footer .redes .redes:hover {
+    color: black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 100%;
+    margin: 20px; }
+    footer i:hover {
       background-color: #14B0EC;
       color: white;
-      width: 20px;
-      height: 20px;
-      text-align: center; }
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      border-radius: 100%;
+      margin: 20px; }
 
 .telephone img {
   width: 100%;
@@ -90,7 +104,7 @@ footer {
 
 .plomo {
   background-color: #DEE2E7;
-  padding-top: 40px;
+  padding: 40px 20px 20px 20px;
   padding-bottom: 20px; }
   .plomo img {
     width: 100%;
