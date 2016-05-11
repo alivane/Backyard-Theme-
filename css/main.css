@@ -7,6 +7,22 @@ ul li {
     ul li a a:hover {
       color: #14B0EC; }
 
+h1 {
+  font-family: 'Montserrat', sans-serif; }
+
+p {
+  font-family: 'Karla', sans-serif; }
+
+h3 {
+  font-family: 'Cantarell', sans-serif; }
+
+h4 {
+  font-family: 'Monda', sans-serif; }
+
+.lg {
+  height: 1px;
+  background-color: grey; }
+
 .center {
   text-align: center; }
 
@@ -92,7 +108,8 @@ span {
   color: #14B0EC; }
 
 footer {
-  text-align: center; }
+  text-align: center;
+  box-shadow: inset 3px -1px 7px -4px; }
   footer i {
     border-color: #14B0EC;
     color: #14B0EC;
@@ -124,7 +141,8 @@ footer {
 .plomo {
   background-color: #DEE2E7;
   padding: 40px 20px 20px 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  box-shadow: inset 3px 1px 7px -4px; }
   .plomo img {
     width: 100%;
     height: 200px; }
