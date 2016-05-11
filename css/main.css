@@ -5,19 +5,31 @@ ul li {
     text-decoration: none;
     color: black; }
     ul li a a:hover {
-      color: #7C360C; }
+      color: #14B0EC; }
+
+.center {
+  text-align: center; }
+
+ul, ol {
+  padding-left: 0; }
 
 .lista ul li {
   display: inline-block; }
   .lista ul li i {
     color: white;
-    margin-left: 5px; }
+    margin-left: -10px; }
 
-header {
-  padding: 10px; }
-  header img {
-    width: 100%;
-    height: 40px; }
+header .np {
+  padding-left: 0;
+  padding-right: 0;
+  height: 60px; }
+header .navbar {
+  margin-bottom: 0;
+  height: 60px;
+  padding: 2px; }
+header img {
+  width: 90%;
+  height: 40px; }
 
 .fondo1 {
   background-color: black;
@@ -50,14 +62,14 @@ header {
     padding: 10px 30px;
     color: #14B0EC;
     border-radius: 20px;
-    border: 2px solid  #14B0EC; }
+    border: 2px solid #14B0EC; }
     .botn .cuadro:hover {
       background-color: #14B0EC;
       padding: 10px 30px;
       text-decoration: none;
       color: white;
       border-radius: 20px;
-      border: 2px solid  #14B0EC; }
+      border: 2px solid #14B0EC; }
   .botn .cuadro1 {
     background-color: black;
     padding: 10px 30px;
@@ -83,12 +95,14 @@ footer {
   text-align: center; }
   footer i {
     border-color: #14B0EC;
-    color: black;
+    color: #14B0EC;
     width: 30px;
     height: 30px;
     text-align: center;
     border-radius: 100%;
-    margin: 20px; }
+    margin: 10px;
+    padding-top: 10px;
+    border: 1px solid #14B0EC; }
     footer i:hover {
       background-color: #14B0EC;
       color: white;
@@ -96,11 +110,16 @@ footer {
       height: 30px;
       text-align: center;
       border-radius: 100%;
-      margin: 20px; }
+      margin: 10px;
+      padding-top: 10px; }
 
-.telephone img {
-  width: 100%;
-  height: 400px; }
+.telephone {
+  box-shadow: inset 3px 0px 10px -4px;
+  padding: 40px; }
+  .telephone img {
+    width: 90%;
+    text-align: right;
+    height: 350px; }
 
 .plomo {
   background-color: #DEE2E7;
